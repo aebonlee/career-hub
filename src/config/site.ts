@@ -55,7 +55,6 @@ const site: SiteConfig = {
     {
       labelKey: 'site.nav.career', path: '/courses/career', activePath: '/courses/career',
       dropdown: [
-        { path: '/courses/jobpath', labelKey: 'site.nav.jobpath' },
         { path: '/courses/career-dev', labelKey: 'site.nav.careerDev' },
         { path: '/courses/competency', labelKey: 'site.nav.competency' },
       ]
@@ -102,18 +101,6 @@ const site: SiteConfig = {
   ],
 
   learningSites: [
-    {
-      id: 'jobpath', name: '취업 로드맵', nameEn: 'Job Path', url: 'https://jobpath.dreamitbiz.com',
-      icon: 'fa-solid fa-road', color: '#2563EB', category: 'career',
-      description: '취업 준비부터 합격까지, 체계적인 취업 로드맵을 학습합니다.',
-      descriptionEn: 'Learn a systematic job preparation roadmap from preparation to success.',
-      techStack: ['이력서', '면접', '자기소개서', '취업전략'], difficulty: 'beginner',
-      curriculum: ['취업 시장 분석', '이력서 작성법', '자기소개서 전략', '면접 준비와 실전', '합격 후 직장생활'],
-      curriculumEn: ['Job market analysis', 'Resume writing', 'Cover letter strategy', 'Interview preparation', 'Post-hire work life'],
-      features: ['이력서 템플릿', '모의 면접', '취업 상담'],
-      featuresEn: ['Resume templates', 'Mock interviews', 'Career counseling'],
-      target: '취업 준비생, 이직 희망자', targetEn: 'Job seekers, career changers',
-    },
     {
       id: 'career-dev', name: '경력개발', nameEn: 'Career Development', url: 'https://career.dreamitbiz.com',
       icon: 'fa-solid fa-chart-line', color: '#059669', category: 'career',
